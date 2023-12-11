@@ -1,0 +1,31 @@
+#include <iostream>
+
+int main() 
+{
+    // Declare variables to store the two numbers
+    double number1, number2;
+
+    // Input the first number
+    std::cout << "Enter the first number: ";
+    std::cin >> number1;
+
+    // Input the second number
+    std::cout << "Enter the second number: ";
+    std::cin >> number2;
+
+    // Check and print the larger number
+    if (number1 > number2) 
+    {
+        std::cout << "The larger number is: " << number1 << std::endl;
+    } 
+        else if (number2 > number1) 
+    {
+        std::cout << "The larger number is: " << number2 << std::endl;
+    } 
+        else 
+    {
+        std::cout << "Both numbers are equal." << std::endl;
+    }
+
+    return 0;
+}
